@@ -5,5 +5,5 @@ alwaysApply: true
 
 # Project baseline
 
-- Read `AGENTS.md` for how this repo is meant to be used and any stack-specific notes.
+- Read `AGENTS.md` for how this repo is meant to be used and any stack-specific notes (including **Repository bootstrap**).
 - Prefer small, focused rules in this folder (e.g. one `.mdc` per language or subsystem) instead of one huge file.
