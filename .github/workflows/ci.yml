@@ -1,0 +1,21 @@
+---
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  sanity:
+    name: Repository sanity
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Verify expected files exist
+        run: |
+          test -f README.md
+          test -f LICENSE
+          test -f CHANGELOG.md

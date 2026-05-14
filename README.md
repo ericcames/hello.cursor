@@ -14,6 +14,13 @@ Cursor does **not** store chat transcripts inside the repo. To carry **durable, 
 
 This repo includes **stubs** for all three; replace the placeholders as the project grows.
 
+## Community
+
+- [Contributing](CONTRIBUTING.md)
+- [Code of conduct](CODE_OF_CONDUCT.md)
+- [Changelog](CHANGELOG.md)
+- [Security](.github/SECURITY.md)
+
 ## License
 
 This project is licensed under the MIT License — see [LICENSE](LICENSE).
